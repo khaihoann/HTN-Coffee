@@ -1,0 +1,106 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>aspnet-doan-436D4C99-A4E3-4E97-9129-F0378B138624</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="PagedList.Core.Mvc" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\formatLogin\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\TRAN VAN QUANG\source\repos\framework_Fivemen\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Admin\Views\AdminDanhmucsps\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDanhmucsps\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDanhmucsps\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDanhmucsps\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDanhmucsps\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDondathangs\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDondathangs\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDondathangs\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDondathangs\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminDondathangs\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminHinhanhs\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminHinhanhs\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminHinhanhs\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminHinhanhs\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminHinhanhs\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKhachhangs\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKhachhangs\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKhachhangs\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKhachhangs\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKhachhangs\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhacungcaps\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhacungcaps\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhacungcaps\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhacungcaps\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhacungcaps\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhanviens\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhanviens\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhanviens\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhanviens\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhanviens\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhavanchuyens\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhavanchuyens\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhavanchuyens\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhavanchuyens\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminNhavanchuyens\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRoles\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRoles\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRoles\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRoles\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRoles\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSanphams\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSanphams\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSanphams\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSanphams\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSanphams\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminTaikhoans\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminTaikhoans\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminTaikhoans\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminTaikhoans\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminTaikhoans\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminVouchers\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminVouchers\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminVouchers\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminVouchers\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminVouchers\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Search\ListProductsSearchPartial.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Error.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_SideNavPatialView.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Areas\Admin\Views\ThongKe\DanhThu_Thang.cshtml" />
+    <None Include="Areas\Admin\Views\ThongKe\DoanhThu_Ngay.cshtml" />
+    <None Include="Areas\Admin\Views\ThongKe\SanPham_DanhMuc.cshtml" />
+    <None Include="Areas\Admin\Views\ThongKe\TK_KhachHang.cshtml" />
+    <None Include="Areas\Admin\Views\ThongKe\TK_NhaVanChuyen.cshtml" />
+    <None Include="Areas\Admin\Views\ThongKe\Top10DonHang.cshtml" />
+    <None Include="Areas\Admin\Views\_ViewImports.cshtml" />
+    <None Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <None Include="Areas\Identity\Pages\_ViewStart.cshtml" />
+    <None Include="C:\Users\TRAN VAN QUANG\source\repos\framework_Fivemen\.editorconfig" />
+  </ItemGroup>
+
+</Project>
