@@ -1,12 +1,32 @@
-# Framework
-Tên dự án: Quản lý cửa hàng cà phê theo tiến trình SCUM
+# ỨNG DỤNG QUẢN LÝ CỬA HÀNG CÀ PHÊ
 
 ## Giới thiệu về đồ án
-- Quản lý cửa hàng cà phê theo tiến trình SCRUM
-## Giới thiệu thành viên nhóm
-- Vũ Khải Hoàn 	 - 21DH113632
-- Nguyễn Yến Nhi - 21DH113951
-- Huỳnh Vũ Thuận - 21DH112981
+- Quản lý cửa hàng cà phê theo tiến trình SCRUM.
+
+## Thông tin thành viên
+1️⃣ Nguyễn Yến Nhi - 21DH113951 - Dev<br>
+2️⃣ Huỳnh Vũ Thuận - 21DH112981 - Product Ower <br>
+3️⃣ Vũ Khải Hoàn - 21DH113632  - Scrum Master
+
+| Công việc | Nhi | Thuận | Hoàn |
+|:---------:|:---:|:-----:|:----:|
+| Sprint 1 | ✔️ | ✔️ | ✔️ |
+| Sprint 2 | ✔️ | ✔️ | ✔️ |
+| Sprint 3 | ✔️ | ✔️ | ✔️ |
+
+## ⚡Công nghệ sử dụng⚡
+ <a href="https://code.visualstudio.com/">
+  <img src="https://maychusaigon.vn/wp-content/uploads/2023/06/dinh-nghia-visual-studio-code-la-gi-maychusaigon.jpg" alt="Visual Studio Code" width="200" height="100">
+</a>
+<br>
+ <a href="https://www.microsoft.com/en-us/sql-server/sql-server-2019">
+  <img src="https://statics.cdn.200lab.io/2023/04/sql-server-la-gi.png" alt="SQL Server 2019" width="200" height="80" >
+</a>
+<br>
+ <a href="https://learn.microsoft.com/vi-vn/dotnet/csharp/programming-guide/">
+  <img src="https://bsmart.edu.vn/files/CourseImage/c-sharp.webp" alt="C#" width="200" height="80" >
+</a>
+
 ## Hướng dẫn cài đặt
 - Cài đặt Visual Studio 2019
 - Cài đặt SQL Server 2019
